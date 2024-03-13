@@ -3,7 +3,6 @@
  * @return {number}
  */
 var pivotInteger = function(n) {
-     // Iterate through all possible values of x
     for (let i = 1; i <= n; i++) {
         let leftSum = (i * (i + 1)) / 2; 
         let rightSum = (n * (n + 1)) / 2 - (i * (i - 1)) / 2;
